@@ -1,0 +1,41 @@
+.ring-root {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(calc(-50% + var(--offset-x, 0px)), calc(-50% + var(--offset-y, 0px)));
+  pointer-events: none;
+}
+.ring-bubble {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(18,18,22,0.7);
+  backdrop-filter: blur(8px);
+  color: white;
+  font-size: 12px;
+  pointer-events: auto;
+  display: grid;
+  place-items: center;
+  transition: transform 120ms ease, background 120ms ease;
+}
+.ring-bubble:hover {
+  background: rgba(36,36,44,0.9);
+  transform: scale(1.06) translate(var(--x), var(--y));
+}
+.ring-center {
+  position: absolute;
+  left: -28px;
+  top: -28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.85);
+  color: #111;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}

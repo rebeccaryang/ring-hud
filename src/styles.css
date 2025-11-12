@@ -1,0 +1,5 @@
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; margin: 0; }
+body { background: transparent !important; margin: 0; }
+.overlay { position: fixed; inset: 0; background: transparent; user-select: none; }
+.hint { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.7); font-size: 12px; }

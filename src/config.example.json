@@ -1,0 +1,28 @@
+{
+  "global": {
+    "ring": [
+      { "label": "1P Copy GitHub", "type": "shell", "cmd": "op item get \"GitHub\" --fields password | pbcopy" },
+      { "label": "VS Code", "type": "url", "url": "vscode://file/" },
+      { "label": "Browser", "type": "shell", "cmd": "open -a \"Google Chrome\"" },
+      { "label": "Zoom In", "type": "keystroke", "keys": "cmd+=" },
+      { "label": "Zoom Out", "type": "keystroke", "keys": "cmd+-" },
+      { "label": "Screenshot", "type": "keystroke", "keys": "shift+cmd+5" },
+      { "label": "Terminal (Warp)", "type": "shell", "cmd": "open -a \"Warp\"" },
+      { "label": "1Password", "type": "shell", "cmd": "open -a \"1Password\"" }
+    ]
+  },
+  "apps": {
+    "com.microsoft.VSCode": {
+      "ring": [
+        { "label": "Command Palette", "type": "keystroke", "keys": "shift+cmd+p" },
+        { "label": "Find", "type": "keystroke", "keys": "cmd+f" },
+        { "label": "Format", "type": "keystroke", "keys": "shift+alt+f" },
+        { "label": "Toggle Terminal", "type": "keystroke", "keys": "ctrl+`" },
+        { "label": "Go to File", "type": "keystroke", "keys": "cmd+p" },
+        { "label": "Split Right", "type": "keystroke", "keys": "cmd+\\" },
+        { "label": "Toggle Sidebar", "type": "keystroke", "keys": "cmd+b" },
+        { "label": "Run", "type": "keystroke", "keys": "ctrl+shift+d" }
+      ]
+    }
+  }
+}
