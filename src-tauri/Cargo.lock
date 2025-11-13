@@ -3,19 +3,6 @@
 version = 4
 
 [[package]]
-name = "ring-hud"
-version = "0.1.0"
-dependencies = [
- "core-graphics 0.23.2",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-global-shortcut",
- "tauri-plugin-opener",
-]
-
-[[package]]
 name = "adler2"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3035,6 +3022,19 @@ dependencies = [
  "wasm-bindgen-futures",
  "wasm-streams",
  "web-sys",
+]
+
+[[package]]
+name = "ring-hud"
+version = "0.1.0"
+dependencies = [
+ "core-graphics 0.23.2",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-global-shortcut",
+ "tauri-plugin-opener",
 ]
 
 [[package]]
